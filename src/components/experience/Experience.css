@@ -45,6 +45,143 @@
   border-radius: 50%; /* Adjust the border-radius to make a circle */
 }
 
+.skill {
+  width: 500px;
+  margin: 60px auto;
+  padding: 20px;
+  box-shadow: 0 14px 28px var(--box-shadow-dark-1),
+    0 10px 10px var(--box-shadow-dark-2);
+}
+
+.skill li {
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.bar {
+  background: #353b48;
+  display: block;
+  height: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.bar:hover {
+  box-shadow: 0 14px 28px var(--box-shadow-dark-1),
+    0 10px 10px var(--box-shadow-dark-2);
+}
+
+.bar span {
+  height: 20px;
+  float: left;
+  background: linear-gradient(
+    135deg,
+    rgba(236, 0, 140, 1) 0%,
+    rgba(252, 103, 103, 1) 100%
+  );
+}
+
+.html {
+  width: 90%;
+  animation: html 2s;
+}
+
+.css {
+  width: 70%;
+  animation: css 2s;
+}
+
+.javascript {
+  width: 60%;
+  animation: javascript 2s;
+}
+
+.python {
+  width: 90%;
+  animation: python 2s;
+}
+
+.mysql {
+  width: 80%;
+  animation: mysql 2s;
+}
+
+.java {
+  width: 60%;
+  animation: java 2s;
+}
+
+.shell {
+  width: 60%;
+  animation: shell 2s;
+}
+
+@keyframes java {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes shell {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes javascript {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes mysql {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes python {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
 /* Media Queries (tablets) */
 @media screen and (max-width: 1024px) {
   .services__container {

@@ -34,6 +34,8 @@
   --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
   --color-black: hsl(var(--primary-hue), 5%, var(--black-lightness));
   --color-dark: hsl(var(--primary-hue), 5%, var(--dark-lightness));
+  --box-shadow-dark-1: rgba(0, 0, 0, 0.25);
+  --box-shadow-dark-2: rgba(0, 0, 0, 0.22);
 
   --color-bg: #1f1f38;
   --color-bg-variant: #2c2c6c;
@@ -96,6 +98,8 @@ main.bg-2 {
   --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
   --color-black: hsl(var(--primary-hue), 5%, var(--black-lightness));
   --color-dark: hsl(var(--primary-hue), 5%, var(--dark-lightness));
+  --box-shadow-dark-1: rgba(255, 255, 255, 0.25);
+  --box-shadow-dark-2: rgba(255, 255, 255, 0.22);
 }
 
 main {
