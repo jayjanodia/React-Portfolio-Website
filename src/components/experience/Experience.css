@@ -79,8 +79,8 @@
   float: left;
   background: linear-gradient(
     135deg,
-    rgba(236, 0, 140, 1) 0%,
-    rgba(252, 103, 103, 1) 100%
+    var(--color-black) 0%,
+    var(--color-primary-light) 100%
   );
 }
 
@@ -217,5 +217,13 @@
 
   .skills-list li::before {
     display: none;
+  }
+
+  .skill {
+    width: 350px;
+    margin: 60px auto;
+    padding: 20px;
+    box-shadow: 0 14px 28px var(--box-shadow-dark-1),
+      0 10px 10px var(--box-shadow-dark-2);
   }
 }
