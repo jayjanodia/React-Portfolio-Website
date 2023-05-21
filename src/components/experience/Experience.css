@@ -1,0 +1,84 @@
+.services__container {
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem 4rem;
+}
+
+.service {
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.service__icon {
+  background: var(--color-light);
+  color: var(--color-primary);
+  padding: 0.6rem;
+  border-radius: var(--border-radius-3);
+  font-size: 1.5rem;
+  transition: var(--transition);
+}
+
+.service:hover .service__icon {
+  background: var(--color-primary);
+  color: var(--color-white);
+}
+
+.skills-list {
+  margin-left: 20px;
+  padding-inline-start: 20px; /* Adjust the padding for the skills list */
+}
+
+.skills-list li {
+  position: relative;
+  padding-left: 15px; /* Increase the padding to create space for the icon */
+  margin-bottom: 5px;
+}
+
+.skills-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 10px; /* Adjust the width of the icon */
+  height: 10px; /* Adjust the height of the icon */
+  background-color: var(--color-primary); /* Adjust the color of the icon */
+  border-radius: 50%; /* Adjust the border-radius to make a circle */
+}
+
+/* Media Queries (tablets) */
+@media screen and (max-width: 1024px) {
+  .services__container {
+    gap: 1.5rem;
+  }
+}
+
+/* Media Queries (phones) */
+@media screen and (max-width: 600px) {
+  .services__container {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+
+  .service {
+    margin-bottom: 20px;
+  }
+
+  .skills-list li:nth-child(odd) {
+    color: var(--color-black);
+    margin-left: -40px;
+    margin-right: 40px;
+    padding: 5px 20px 5px 20px;
+    background-color: var(--color-primary-light);
+    border-radius: 10px;
+  }
+
+  .skills-list li:nth-child(even) {
+    padding: 5px 20px 5px 20px;
+    background-color: var(--color-light);
+    border-radius: 10px;
+  }
+
+  .skills-list li::before {
+    display: none;
+  }
+}

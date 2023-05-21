@@ -101,6 +101,7 @@ main.bg-2 {
 main {
   color: var(--color-dark);
   --color-primary: hsl(var(--primary-hue), 89%, 41%);
+  --color-primary-light: hsl(var(--primary-hue), 89%, 81%);
 }
 
 /* General Container Class : Will help center our elements*/
