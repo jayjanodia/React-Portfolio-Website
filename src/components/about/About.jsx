@@ -27,20 +27,22 @@ const About = () => {
           </div>
           <p>
             Hi there! I'm a Software Development Engineer with experience
-            working at Amazon, where I focused on migrating from a proprietary
+            working at Elegen, a biotech startup company building new
+            technologies to achieve DNA writing at speed and scale. Previously I
+            worked at Amazon, where I focused on migrating from a proprietary
             language to Typescript. During my time there, I used shell scripting
             and Java based on Jest framework to develop a unit testing framework
             for customers to test their Typescript code on. I also worked on
             various projects that aimed to improve the customer experience and
             enhance product stability. <br />
-            <br /> In addition to my work at Amazon, I have also worked on
-            several projects in the fields of machine learning and data science.
-            My most recent project involved detecting cars and trucks and
-            predicting their direction of travel for the 2022 aicitychallenge.
-            This project was important in understanding how we can coordinate
-            traffic lights to make them more efficient. My expertise in machine
-            learning centers around computer vision and natural language
-            processing, and I primarily code in Python. <br />
+            <br /> I have also worked on several projects in the fields of
+            machine learning and data science. My most recent project involved
+            detecting cars and trucks and predicting their direction of travel
+            for the 2022 aicitychallenge. This project was important in
+            understanding how we can coordinate traffic lights to make them more
+            efficient. My expertise in machine learning centers around computer
+            vision and natural language processing, and I primarily code in
+            Python. <br />
             <br />
             When I'm not working on software engineering or machine learning
             projects, I enjoy exploring the outdoors, trying new foods, and

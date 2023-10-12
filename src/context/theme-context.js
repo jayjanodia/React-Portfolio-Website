@@ -12,7 +12,7 @@ const initialThemeState = JSON.parse(localStorage.getItem("themeSettings")) || {
 export const ThemeProvider = ({ children }) => {
   const [themeState, dispatchTheme] = useReducer(
     themeReducer,
-    initialThemeState
+    initialThemeState,
   );
 
   const themeHandler = (buttonClassName) => {

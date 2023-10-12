@@ -22,7 +22,7 @@ const data = [
   {
     id: 3,
     quote:
-      "I had the pleasure of mentoring Jay when he was a new member of our team at Amazon. He was passionate about learning new things and ramping up on technologies beyond his background. With this knowledge, Jay tackled a variety of projects: from frontend user interface features in React to a new unit testing framework for an internal serverless platform in Amazon. Paired with his always positive easy-going attitude, he was a delight to work with. I recommend Jay as a valuable asset to any software development organization.",
+      "I personally had a chance to collaborate with Jay on many projects. He has been one of the most diligent and sincere students from my batch. He has always performed his work in a timely manner. He is a quick learner and has great problem solving skills. I strongly believe that Jay with his strong technical background paired with his commendable work ethics will be a good fit for any team.",
     avatar: Avatar3,
     name: "Yash Parekh",
     profession: "Software Development Engineer 1 at Amazon",

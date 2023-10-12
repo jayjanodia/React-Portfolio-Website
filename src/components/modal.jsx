@@ -14,7 +14,7 @@ const Modal = ({ className, children }) => {
             <section id="background" onClick={closeModalHandler}></section>
             <Card className={className}>{children}</Card>
           </>,
-          document.querySelector("#overlays")
+          document.querySelector("#overlays"),
         )}
     </Fragment>
   );

@@ -25,48 +25,70 @@ const Experience = () => {
         Find my Skill Levels for various technologies below on a scale from 1-10
       </p>
       <div className="skill" data-aos="fade-up">
-        <li>
-          <h3>Python</h3>
-          <span className="bar">
-            <span className="python"></span>
-          </span>
-        </li>
-        <li>
-          <h3>MySQL</h3>
-          <span className="bar">
-            <span className="mysql"></span>
-          </span>
-        </li>
-        <li>
-          <h3>Java</h3>
-          <span className="bar">
-            <span className="java"></span>
-          </span>
-        </li>
-        <li>
-          <h3>Shell Scripting</h3>
-          <span className="bar">
-            <span className="shell"></span>
-          </span>
-        </li>
-        <li>
-          <h3>HTML</h3>
-          <span className="bar">
-            <span className="html"></span>
-          </span>
-        </li>
-        <li>
-          <h3>CSS</h3>
-          <span className="bar">
-            <span className="css"></span>
-          </span>
-        </li>
-        <li>
-          <h3>JavaScript</h3>
-          <span className="bar">
-            <span className="javascript"></span>
-          </span>
-        </li>
+        <div className="column">
+          <li>
+            <h3>Python</h3>
+            <span className="bar">
+              <span className="python"></span>
+            </span>
+          </li>
+          <li>
+            <h3>Flask</h3>
+            <span className="bar">
+              <span className="flask"></span>
+            </span>
+          </li>
+          <li>
+            <h3>PostGreSQL</h3>
+            <span className="bar">
+              <span className="postgresql"></span>
+            </span>
+          </li>
+          <li>
+            <h3>MySQL</h3>
+            <span className="bar">
+              <span className="mysql"></span>
+            </span>
+          </li>
+          <li>
+            <h3>HTML</h3>
+            <span className="bar">
+              <span className="html"></span>
+            </span>
+          </li>
+        </div>
+        <div className="column">
+          <li>
+            <h3>Java</h3>
+            <span className="bar">
+              <span className="java"></span>
+            </span>
+          </li>
+          <li>
+            <h3>Shell Scripting</h3>
+            <span className="bar">
+              <span className="shell"></span>
+            </span>
+          </li>
+          <li>
+            <h3>CSS</h3>
+            <span className="bar">
+              <span className="css"></span>
+            </span>
+          </li>
+          <li>
+            <h3>JavaScript</h3>
+            <span className="bar">
+              <span className="javascript"></span>
+            </span>
+          </li>
+          <li>
+            <h3>TypeScript</h3>
+            <span className="bar">
+              <span className="typescript"></span>
+            </span>
+          </li>
+        </div>
       </div>
     </section>
   );

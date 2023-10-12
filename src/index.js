@@ -10,6 +10,6 @@ root.render(
     <ModalProvider>
       <App />
     </ModalProvider>
-  </ThemeProvider>
+  </ThemeProvider>,
 );
 // ReactDOM.render(<App />, document.querySelector("#root"));

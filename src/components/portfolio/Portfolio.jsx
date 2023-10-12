@@ -14,7 +14,7 @@ const Portfolio = () => {
       return;
     }
     const filterProjects = data.filter(
-      (project) => project.category === category
+      (project) => project.category === category,
     );
     setProjects(filterProjects);
   };
