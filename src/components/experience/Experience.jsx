@@ -20,7 +20,7 @@ const Experience = () => {
         ))}
       </div>
       <br />
-      <h2>Skill</h2>
+      <h2>Skills</h2>
       <p>
         Find my Skill Levels for various technologies below on a scale from 1-10
       </p>

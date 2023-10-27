@@ -22,7 +22,8 @@
     "react-scripts": "^5.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "npm run check-scripts && react-scripts start",
+    "check-scripts": "echo \"Before starting the application, please make sure to run 'npm install' to install the required dependencies.\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
