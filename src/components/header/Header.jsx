@@ -3,7 +3,7 @@ import HeaderImage from "../../assets/img/Profile_Transparent.png";
 import data from "./data";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import CV from "../../assets/resume/JayJanodia_Resume.pdf";
+import CV from "../../assets/resume/Resume_JayJanodia.pdf";
 import { HiDownload } from "react-icons/hi";
 import "./Header.css";
 
