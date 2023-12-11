@@ -8,6 +8,20 @@
   gap: 1rem;
 }
 
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.flex-container em {
+  text-align: left;
+}
+
+.flex-container b {
+  text-align: right;
+}
+
 .service__icon {
   background: var(--color-light);
   color: var(--color-primary);
@@ -25,6 +39,7 @@
 .skills-list {
   margin-left: 20px;
   padding-inline-start: 20px; /* Adjust the padding for the skills list */
+  margin-bottom: 20px;
 }
 
 .skills-list li {

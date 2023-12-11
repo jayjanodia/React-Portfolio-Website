@@ -4,7 +4,11 @@ const data = [
     date: "July 2023 - Present",
     title: "LIMS Software Developer, Elegen",
     location: "San Carlos, CA, USA",
-    desc: [],
+    desc: [
+      "Improved QC measurement sets by renaming and introducing new columns to identify deletions, ensuring data clarity and accuracy. This enhancement aids in contamination and misassembly detection while maintaining consistency.",
+      "Implemented REST endpoints, offering enhanced functionality and accessibility to our system. Rigorously tested the solution to ensure seamless integration and improved workflow efficiency.",
+      "Successfully integrated a gene ID into the Concentration table and conducted comprehensive testing to ensure data accuracy and functionality.",
+    ],
   },
   {
     id: 2,

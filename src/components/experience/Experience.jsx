@@ -10,7 +10,10 @@ const Experience = () => {
         {data.map((item) => (
           <div className="service">
             <h4>{item.title}</h4>
-            <em>{item.location}</em>
+            <div className="flex-container">
+              <em>{item.location}</em>
+              <b>{item.date}</b>
+            </div>
             <ul class="skills-list">
               {item.desc.map((bullet) => (
                 <li>{bullet}</li>
