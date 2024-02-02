@@ -5,9 +5,11 @@ const data = [
     title: "LIMS Software Developer, Elegen",
     location: "San Carlos, CA, USA",
     desc: [
-      "Improved QC measurement sets by renaming and introducing new columns to identify deletions, ensuring data clarity and accuracy. This enhancement aids in contamination and misassembly detection while maintaining consistency.",
-      "Implemented REST endpoints, offering enhanced functionality and accessibility to our system. Rigorously tested the solution to ensure seamless integration and improved workflow efficiency.",
-      "Successfully integrated a gene ID into the Concentration table and conducted comprehensive testing to ensure data accuracy and functionality.",
+      "Enhanced system functionality through REST endpoint implementation. Improved database structure and resolved UI issues, significantly boosting performance.",
+      "Integrated AWS capabilities to address bottlenecks by leveraging AWS lambda functions to improve execution speed from 30 seconds to a couple of seconds.",
+      "Introduced  a feature for clients to search genes efficiently and developing a customer-centric solution for viewing data, accelerating results delivery from 10 minutes to a couple of seconds.",
+      "Automated data retrieval for 60 clients using Python, PostGres and Shell Scripting, and assisted them in generating custom data files ahead of time.",
+      "Developed and executed end-to-end unit tests for LIMS. Implemented manual test ordering, reducing the risk of test failures. Test cases utilized by 3 employees, ensuring data accuracy, functionality, and workflow efficiency. Adhered to best practices with universally-accepted formatting, robust exception handling, and clear code documentation.",
     ],
   },
   {
