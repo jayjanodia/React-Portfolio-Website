@@ -18,12 +18,25 @@ const Header = () => {
           <img src={HeaderImage} alt="Header Potrait" />
         </div>
         <h3 data-aos="fade-up">Jay Janodia</h3>
+        {/*
         <p data-aos="fade-up">
           Data driven Software Development Engineer with career expertise in
           working on enhancement tickets to improve customer experience. Adept
           in using text analysis to determine scope of augmenting. Collaborative
           professional skilled in helping customers to migrate from a
           proprietary platform to TypeScript.
+        </p>
+  */}
+        <p data-aos="fade-up">
+          Experienced Software Development Engineer with a background in biotech and tech
+          giants like Amazon, specializing in migration projects and improving product
+          stability. Skilled in Python, SQL, Shell scripting, Java, and Typescript, with a
+          knack for building unit testing frameworks. Passionate about machine learning and
+          data science, particularly in computer vision and natural language processing,
+          demonstrated through projects like vehicle detection for traffic optimization.
+          Seeking opportunities to leverage expertise in innovative environments where I can
+          contribute to impactful projects and continue advancing in the fields of technology
+          and AI.
         </p>
         <div className="header__cta" data-aos="fade-up">
           <a href="#contact" className="btn primary">
