@@ -1,6 +1,7 @@
 import Image1 from "../../assets/img/portfolio1.png";
 import Image2 from "../../assets/img/portfolio2.png";
 import Image3 from "../../assets/img/portfolio3.png";
+import Image4 from "../../assets/img/portfolio4.png"
 
 const data = [
   {
@@ -33,6 +34,16 @@ const data = [
     demo: "https://jayjanodia.github.io/Pizza_order_application/",
     github: "https://github.com/jayjanodia/Pizza_order_application",
   },
+  {
+    id: 4,
+    category: "Backend",
+    categories: ["Backend", "Flask", "HTML"],
+    image: Image4,
+    title: "Flask Blog Website",
+    desc: "Application is hosted on a static website, it might be better to test using github link",
+    demo: "https://blog-website-o19m.onrender.com/",
+    github: "https://github.com/jayjanodia/Blog-Website",
+  }
 ];
 
 export default data;

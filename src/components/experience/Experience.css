@@ -38,13 +38,15 @@
 
 .skills-list {
   margin-left: 20px;
-  padding-inline-start: 20px; /* Adjust the padding for the skills list */
+  padding-inline-start: 20px;
+  /* Adjust the padding for the skills list */
   margin-bottom: 20px;
 }
 
 .skills-list li {
   position: relative;
-  padding-left: 15px; /* Increase the padding to create space for the icon */
+  padding-left: 15px;
+  /* Increase the padding to create space for the icon */
   margin-bottom: 5px;
 }
 
@@ -54,10 +56,14 @@
   left: 0;
   top: 50%;
   transform: translate(0, -50%);
-  width: 10px; /* Adjust the width of the icon */
-  height: 10px; /* Adjust the height of the icon */
-  background-color: var(--color-primary); /* Adjust the color of the icon */
-  border-radius: 50%; /* Adjust the border-radius to make a circle */
+  width: 10px;
+  /* Adjust the width of the icon */
+  height: 10px;
+  /* Adjust the height of the icon */
+  background-color: var(--color-primary);
+  /* Adjust the color of the icon */
+  border-radius: 50%;
+  /* Adjust the border-radius to make a circle */
 }
 
 .skill {
@@ -102,11 +108,9 @@
 .bar span {
   height: 20px;
   float: left;
-  background: linear-gradient(
-    135deg,
-    var(--color-black) 0%,
-    var(--color-primary-light) 100%
-  );
+  background: linear-gradient(135deg,
+      var(--color-black) 0%,
+      var(--color-primary-light) 100%);
 }
 
 .html {
@@ -120,7 +124,7 @@
 }
 
 .javascript {
-  width: 60%;
+  width: 90%;
   animation: javascript 2s;
 }
 
@@ -163,6 +167,7 @@
   0% {
     width: 0%;
   }
+
   100% {
     width: 60%;
   }
@@ -172,6 +177,7 @@
   0% {
     width: 0%;
   }
+
   100% {
     width: 60%;
   }
@@ -181,6 +187,7 @@
   0% {
     width: 0%;
   }
+
   100% {
     width: 90%;
   }
@@ -190,6 +197,7 @@
   0% {
     width: 0%;
   }
+
   100% {
     width: 70%;
   }
@@ -199,8 +207,9 @@
   0% {
     width: 0%;
   }
+
   100% {
-    width: 60%;
+    width: 90%;
   }
 }
 
@@ -208,6 +217,7 @@
   0% {
     width: 0%;
   }
+
   100% {
     width: 80%;
   }
@@ -217,6 +227,7 @@
   0% {
     width: 0%;
   }
+
   100% {
     width: 90%;
   }

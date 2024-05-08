@@ -1,6 +1,6 @@
 header {
   margin-top: 5rem;
-  height: calc(100vh - 5rem);
+  height: calc(110vh - 5rem);
   display: grid;
   place-items: center;
   background: var(--color-white);
@@ -40,7 +40,8 @@ header {
   bottom: 0;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1em;
+  margin-bottom: 10%;
 }
 
 .header__socials a {
@@ -76,6 +77,7 @@ header {
     max-width: 60%;
     max-height: 35vh;
   }
+
   .header__container p {
     width: 100%;
   }
