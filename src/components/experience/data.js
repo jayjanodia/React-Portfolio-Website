@@ -1,7 +1,20 @@
 const data = [
   {
     id: 1,
-    date: "July 2023 - Present",
+    date: "Jul 2024 - Present",
+    title: "Software Developer, Sonix",
+    location: "Springfield, VA, USA",
+    desc: [
+      "Led the enhancement of UI functionality, integrating key components and improving transducer list visibility, directly impacting usability for over ~1,500 active enterprise users.",
+      "Architected and implemented comprehensive process guides, aligning cross-functional team objectives with business goals, resulting in a 20-hour monthly productivity increase.",
+      "Spearheaded performance optimizations by refining code logic and enforcing best practices, leading to measurable improvements in system efficiency and maintainability.",
+      "Provided technical mentorship, proactively resolving blockers, optimizing team workflows, and fostering a culture of collaboration and continuous learning.",
+      "Strategically managed task execution, consistently meeting or exceeding deadlines while balancing critical priorities and cross-team dependencies to drive project success.",
+    ],
+  },
+  {
+    id: 2,
+    date: "Jul 2023 - Mar 2024",
     title: "LIMS Software Developer, Elegen",
     location: "San Carlos, CA, USA",
     desc: [
@@ -13,7 +26,7 @@ const data = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     date: "May 2022 - Mar 2023",
     title: "Software Development Engineer 1, Amazon",
     location: "Sunnyvale, CA, USA",
@@ -25,7 +38,7 @@ const data = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     date: "Sep 2020 - Mar 2022",
     location: "Santa Clara, CA, USA",
     title:
@@ -37,8 +50,8 @@ const data = [
     ],
   },
   {
-    id: 4,
-    date: "Dec 2019 - March 2020",
+    id: 5,
+    date: "Dec 2019 - Mar 2020",
     location: "Pune, MH, India",
     title: "Development Intern (AI Engineer), Tata Consultancy Services",
     desc: [
@@ -48,7 +61,7 @@ const data = [
     ],
   },
   {
-    id: 4,
+    id: 6,
     date: "Aug 2016 - May 2020",
     location: "Pune, MH, India",
     title:
